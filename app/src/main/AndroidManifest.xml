@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.feicui.administrator.hometest">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".BeginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ChangeActivity">
+
+
+        </activity>
+
+
+        <activity android:name=".foodmake.OneFood">
+
+        </activity>
+        <activity android:name=".foodmake.OneFood2">
+
+        </activity>
+        <activity android:name=".foodmake.TwoFood">
+
+        </activity>
+        <activity android:name=".foodmake.TwoFood2">
+
+        </activity>
+        <activity android:name=".foodmake.ThreeFood">
+
+        </activity>
+        <activity android:name=".foodmake.ThreeFood2">
+
+        </activity>
+        <activity android:name=".foodmake.ThreeFood3">
+
+        </activity>
+        <activity android:name=".foodmake.FourFood">
+
+        </activity>
+        <activity android:name=".foodmake.FourFood2">
+
+        </activity>
+        <activity android:name=".foodmake.FourFood3">
+
+        </activity>
+        <activity android:name=".foodmake.FiveFood">
+
+        </activity>
+        <activity android:name=".foodmake.FiveFood2">
+
+        </activity>
+        <activity android:name=".foodmake.FiveFood3">
+
+        </activity>
+        <activity android:name=".foodmake.OneFood3">
+
+        </activity>
+        <activity android:name=".foodmake.TwoFood3">
+
+        </activity>
+
+        <activity android:name=".food.Noon">
+
+        </activity>
+
+        <activity android:name=".foodmake.SixFood">
+
+        </activity>
+        <activity android:name=".foodmake.SixFood2">
+
+        </activity>
+        <activity android:name=".foodmake.SixFood3">
+
+        </activity>
+        <activity android:name=".foodmake.SevenFood">
+
+        </activity>
+        <activity android:name=".foodmake.SevenFood2">
+
+        </activity>
+        <activity android:name=".foodmake.SevenFood3">
+
+        </activity>
+        <activity android:name=".foodmake.EightFood">
+
+        </activity>
+        <activity android:name=".foodmake.EightFood2">
+
+        </activity>
+        <activity android:name=".foodmake.EightFood3">
+
+        </activity>
+        <activity android:name=".foodmake.NineFood">
+
+        </activity>
+        <activity android:name=".foodmake.NineFood2">
+
+        </activity>
+        <activity android:name=".foodmake.NineFood3">
+
+        </activity>
+        <activity android:name=".foodmake.TenFood">
+
+        </activity>
+        <activity android:name=".foodmake.TenFood2">
+
+        </activity>
+        <activity android:name=".foodmake.TenFood3">
+
+        </activity>
+        <activity android:name=".foodmake.OneFood2Make">
+
+        </activity>
+        <activity android:name=".foodmake.OneFood2Make2">
+
+        </activity>
+        <activity android:name=".foodmake.OneFood2Make3">
+
+        </activity>
+        <activity android:name=".foodmake.OneFoodMake">
+
+        </activity>
+        <activity android:name=".foodmake.OneFoodMake2">
+
+        </activity>
+        <activity android:name=".foodmake.OneFoodMake3">
+
+        </activity>
+        <activity android:name=".foodmake.OneFood3Make2">
+
+        </activity>
+        <activity android:name=".foodmake.OneFood3Make3">
+
+        </activity>
+        <activity android:name=".foodmake.OneFood3Make">
+
+        </activity>
+
+        <activity android:name=".foodmake.TwoFoodMake">
+
+    </activity>
+        <activity android:name=".foodmake.TwoFoodMake2">
+
+        </activity>
+        <activity android:name=".foodmake.TwoFoodMake3">
+
+        </activity>
+        <activity android:name=".foodmake.TwoFood2Make">
+
+        </activity>
+        <activity android:name=".foodmake.TwoFood2Make2">
+
+        </activity>
+        <activity android:name=".foodmake.TwoFood2Make3">
+
+        </activity>
+        <activity android:name=".foodmake.TwoFood3Make">
+
+        </activity>
+        <activity android:name=".foodmake.TwoFood3Make2">
+
+        </activity>
+        <activity android:name=".foodmake.TwoFood3Make3">
+
+        </activity>
+        <activity android:name=".login.Login">
+
+        </activity>
+        <activity android:name=".login.Design">
+
+        </activity>
+        <activity android:name=".login.Goin">
+
+        </activity>
+        <activity android:name=".login.ChangePassword">
+
+        </activity>
+    </application>
+
+</manifest>

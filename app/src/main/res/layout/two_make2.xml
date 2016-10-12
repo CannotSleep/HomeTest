@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <ImageView
+            android:src="@drawable/twozaoba"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+        <ImageView
+            android:src="@drawable/twozaobb"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+        <ImageView
+            android:src="@drawable/twozaobc"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+        <ImageView
+            android:src="@drawable/twozaobd"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+
+        <Button
+            android:onClick="twozaob"
+            android:text="返回"
+            android:textSize="20dp"
+            android:background="@drawable/shape3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

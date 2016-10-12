@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back3"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:gravity="center_horizontal"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <TextView
+            android:textColor="#000000"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:padding="10dp"
+            android:id="@+id/two_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="25dp"/>
+
+        <Button
+            android:textSize="25dp"
+            android:background="@drawable/shape2"
+            android:id="@+id/two_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    一日三餐    "/>
+    </LinearLayout>
+</ScrollView>

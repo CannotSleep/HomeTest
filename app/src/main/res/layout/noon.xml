@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorbackground"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/zaoa"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/noon_zao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zaocan"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/wucana"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/noon_zhong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wucan"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/wancana"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/noon_wan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wancan"/>
+    </LinearLayout>
+
+
+</LinearLayout>

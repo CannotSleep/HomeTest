@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorfood"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:background="@color/colorfood"
+                  android:layout_marginTop="30dp"
+                  android:gravity="center_horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/threec"
+            android:layout_width="400dp"
+            android:layout_height="200dp"/>
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:padding="10dp"
+            android:text="123"
+            android:textSize="25dp"
+            android:id="@+id/three_food_make_c_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:background="@drawable/shape2"
+            android:onClick="threec"
+            android:textSize="20dp"
+            android:text="    返回    "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

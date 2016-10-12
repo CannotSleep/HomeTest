@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back4"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center_horizontal"
+                  android:orientation="vertical">
+        <TextView
+            android:textColor="#000000"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:padding="10dp"
+            android:id="@+id/three_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="25dp"/>
+
+
+        <Button
+            android:background="@drawable/shape2"
+            android:id="@+id/three_btn"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     一日三餐    "/>
+
+    </LinearLayout>
+</ScrollView>
